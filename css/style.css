@@ -4,6 +4,12 @@ h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
 }
+p {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /*Navigation Bar*/
 .cart {
@@ -34,7 +40,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
     margin-bottom: 0;
 }
-.carousel-caption button{
+.carousel-caption a{
     font-size: 24px;
     font-weight: 600;
     border-radius: 5px;
@@ -74,4 +80,68 @@ h1, h2, h3, h4, h5 {
     height: 250px;
     width: auto;
     justify-content: center;
+}
+.prod-btn {
+    border-radius: 0;
+    background-color: #000;
+}
+
+/* Showcase Section */
+.show {
+    margin-top:0px; 
+    margin-bottom:0px;
+    background-image: url(../assets/img/showcase/show-bg-1.jpg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center center;
+    padding: 150px 0;
+    width: 100%;
+}
+
+.show-inscription h1 {
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+/* Newsletter Section */
+.footer-1 h1 {
+    color: #000;
+    text-align: center;
+}
+#newsletter p {
+    color: rgb(68, 68, 68);
+}
+.news-form {
+    width: 60%;
+}
+.news-form input {
+    border-radius: 0;
+}
+.news-form input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-form button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0;
+    background: #000;
+    color: #fff;
+}
+
+/* Footer */
+.footer1 {
+    text-align: center;
+}
+.footer1 a {
+    text-decoration: none;
+    color: #000;
+}
+.footer1 ul {
+    list-style: none;
+}
+.footer1 ul li {
+    display: inline;
+}
+.footer2 p{
+    text-align: center;
 }
