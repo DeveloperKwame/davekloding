@@ -145,3 +145,20 @@ button {
 .footer2 p{
     text-align: center;
 }
+
+/* Login Pages */
+#client-login {
+    background: #000;
+}
+#client-login .container {
+    width: 100%;
+    background: #fff;
+}
+.login-2 h3 {
+    text-align: center;
+    font-weight: 600;
+}
+.login-2 button {
+    width: 150px;
+    text-align: center;
+}
