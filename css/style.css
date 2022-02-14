@@ -142,7 +142,7 @@ button {
 .footer1 ul li {
     display: inline;
 }
-.footer2 p{
+.footer2 p {
     text-align: center;
 }
 
@@ -161,4 +161,14 @@ button {
 .login-2 button {
     width: 150px;
     text-align: center;
+}
+#client-login a {
+    color: #6C757D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-form label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-text {
+    font-family: Arial, Helvetica, sans-serif;
 }
