@@ -138,6 +138,7 @@ button {
 }
 .footer1 ul {
     list-style: none;
+    padding-left: 0 !important;
 }
 .footer1 ul li {
     display: inline;
@@ -154,6 +155,7 @@ button {
 }
 .footer2 ul {
     list-style: none;
+    padding-left: 0 !important;
 }
 .footer2 ul li {
     display: inline;
