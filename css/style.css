@@ -66,6 +66,11 @@ button {
 .cap-3 h1{
     color: #000;
 }
+@media(max-width: 768px){
+    #hero {
+        display: none;
+    }
+}
 
 /* Top Products Section */
 #top-prod h1 {
