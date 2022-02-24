@@ -166,7 +166,6 @@ button {
     display: inline;
 }
 
-
 /* Login Pages */
 #client-login {
     background: #000;
@@ -193,3 +192,5 @@ button {
 .form-text {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Categories Page */
