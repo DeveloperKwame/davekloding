@@ -11,6 +11,10 @@ button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*Navigation Bar*/
 .cart {
     padding: 6px 0;
@@ -192,5 +196,15 @@ button {
 .form-text {
     font-family: Arial, Helvetica, sans-serif;
 }
+@media(max-width: 768px)
+{
+    .login-1 {
+        display: none;
+    }
+}
 
 /* Categories Page */
+#categories .prod a {
+    text-decoration: none;
+    color: #000;
+}
