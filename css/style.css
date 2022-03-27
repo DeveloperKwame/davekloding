@@ -208,3 +208,23 @@ a {
     text-decoration: none;
     color: #000;
 }
+@media(max-width:1025px){
+    .category1 {
+        height: 358.49px !important;
+    }
+}
+@media(max-width:426px){
+    .category1 {
+        height: 315.71px !important;
+    }
+}
+@media(max-width:376px){
+    .category1 {
+        height: 276.1px !important;
+    }
+}
+@media(max-width:321px){
+    .category1 {
+        height: 232.7px !important;
+    }
+}
