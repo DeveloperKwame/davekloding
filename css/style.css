@@ -26,6 +26,14 @@ a {
     font-weight: 800;
     margin-bottom: 0;
 }
+.dropdown-toggle-split {
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.nav-link {
+    color: #000 !important;
+}
 
 /*Hero Section*/
 .hero {

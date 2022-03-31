@@ -63,50 +63,62 @@
 
     <!-- Beginning of Single Product Section -->
     <section id="single" class="mb-5 mt-5">
-        <div class="container">
-          <div class="row mb-3">
-            <div class="col d-flex justify-content-center">
-              <img src="./assets/img/single-prod/men1.jpg" alt="" style="height: 500px;" class="main">
-            </div>
-          </div>
-          <div class="row mb-3 gx-0 sub-con">
-            <div class="col-4 sub-img-single">
-              <img src="./assets/img/men/men1.webp" alt="">
-            </div>
-            <div class="col-4 sub-img-single">
-              <img src="./assets/img/men/men1.webp" alt="">
-            </div>
-            <div class="col-4 sub-img-single">
-              <img src="./assets/img/men/men1.webp" alt="">
-            </div>
-          </div>
+        <div class="container single-product small-container">
           <div class="row">
-            <div class="prod prod-4-details">
-              <h5 class="mb-3 text-center">M Black Suit</h5>
-              <h6 class="mb-3 text-center">$ 100.00</h6>
-              <button type="button" class="btn btn-dark prod-btn">Add to cart</button>
-            </div>
+              <div class="col-2">
+                  <img src="./assets/img/products/prod-1.jpg" id="productimg">
+                  <div class="small-img-row mt-3">
+                      <div class="small-img-col">
+                        <img src="./assets/img/products/prod-1.jpg" id="productimg" style="width: 100%;" class="small-img">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="./assets/img/products/prod-3.jpg" id="productimg" style="width: 100%;" class="small-img">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="./assets/img/products/prod-4.jpg" id="productimg" style="width: 100%;" class="small-img">
+                      </div>
+                      <div class="small-img-col">
+                        <img src="./assets/img/products/prod-5.jpg" id="productimg" style="width: 100%;" class="small-img">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-2">
+                  <p>Home / T-Shirts</p>
+                  <h2>T-Shirts</h2>
+                  <h5>$30.00</h5>
+                  <select class="form-select" name="" id="">
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                  </select>
+                  <input class="form-control col-3" type="number" value="1" min="1">
+                  <a href="" class="btn btn-dark prod-btn">Add to Cart</a>
+                  <h4>Product Details <i class="bi bi-card-text"></i></h4>
+                  <br>
+                  <p>Give your summer wardrobe a style upgrade with the Men's Active T-shirt. Team it with a pair of shorts for your morning workouts or denims for an evening outing with the boys.</p>
+              </div>
           </div>
         </div>
       </section>
       <!-- End of Categories Section -->
 
 
-    <!-- Beginning of Footer -->
-    <footer>
+      <!-- Beginning of Footer -->
+      <footer>
         <div class="container footer1 mb-3">
           <div class="row">
             <div class="col-12">
               <div>
                 <ul>
                   <li class="me-2">
-                    <a aria-current="page" href="#">Home</a>
+                    <a aria-current="page" href="/index.html">Home</a>
                   </li>
                   <li class="me-2">
-                    <a href="#">Link</a>
+                    <a href="/categories.html">Categories</a>
                   </li>
                   <li class="me-2">
-                    <a>Disabled</a>
+                    <a href="/client_info.html">Account</a>
                   </li>
                 </ul class="mb-3">
               </div>
@@ -161,6 +173,23 @@
     <!-- Custom Script -->
     <script>
       AOS.init();
+    </script>
+    <script>
+      let productImg = document.querySelector('#productimg');
+      let smallImg = document.getElementsByClassName('small-img');
+
+      smallImg[0].onclick = function(){
+        productImg.src = smallImg[0].src;
+      }
+      smallImg[1].onclick = function(){
+        productImg.src = smallImg[1].src;
+      }
+      smallImg[2].onclick = function(){
+        productImg.src = smallImg[2].src;
+      }
+      smallImg[3].onclick = function(){
+        productImg.src = smallImg[3].src;
+      }
     </script>
 </body>
 </html>
