@@ -35,5 +35,4 @@ function toggleFunction(){
     document.getElementById('main-cart').style.display = "block";
 }
 
-
 // console.log(cartButton);
