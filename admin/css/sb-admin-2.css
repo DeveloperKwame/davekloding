@@ -211,6 +211,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 }
 
 caption {
@@ -4140,6 +4141,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 }
 
 .navbar-nav .nav-link {
@@ -11253,6 +11255,11 @@ form.user .btn-user {
   100% {
     clip: rect(67px, 9999px, 68px, 0);
   }
+}
+
+.card-titles {
+  font-family: Montserrat, Helvetica, sans-serif !important;
+  font-weight: 600 !important;
 }
 
 .error:before {
